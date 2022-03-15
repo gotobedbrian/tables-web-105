@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tables</title>
+     <link rel="stylesheet" href="css/styles.css">
+    <style>
+        table {
+            width: 95%;
+            margin: 20px auto;
+            border: 3px solid rgb(7, 9, 39);
+            border-collapse: collapse;
+        }
+
+        th,
+        td {
+            border: 1px solid rgb(7, 50, 167);
+            padding: 5px;
+        }
+
+        th {
+            color: white;
+            background-color: rgb(39, 146, 132);
+        }
+
+        tr:hover {
+            background: rgb(177, 170, 238);
+        }
+
+        td {
+            text-align: center;
+            min-height: 25px;
+        }
+    
+        </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+        <h1>Tables</h1>
+        </header>
+        <nav>
+            <a href="index.html">Table Basics</a>
+            <a href="styling-tables.html">Styling Tables</a>
+            <a href="calendar.html">Creating a Calendar</a>
+        </nav>
+        <br></br>
+        <h2>Styling Tables</h2>
+            <table>
+                <!-- tr>th*8 -->
+                <tr>
+                    <th></th>
+                    <th>Sunday</th>
+                    <th>Monday</th>
+                    <th>Tuesday</th>
+                    <th>Wednesday</th>
+                    <th>Thursday</th>
+                    <th>Friday</th>
+                    <th>Saturday</th>
+                </tr>
+                <!-- ((tr>td*8)*12 -->
+                <tr>
+                    <th>7:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>8:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>9:00 am</th>
+                    <td></td>
+                    <td>Take sister to school</td>
+                    <td>Take sister to school</td>
+                    <td>Take sister to school</td>
+                    <td>Take sister to school</td>
+                    <td>Take sister to school</td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>10:00 am</th>
+                    <td></td>
+                    <td rowspan=2>Criminology</td>
+                    <td rowspan=2>English Comp</td>
+                    <td rowspan=2>Criminology</td>
+                    <td rowspan=2>English Comp</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>11:00 am</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>12:00 pm</th>
+                    <td></td>
+                    <td>Intro to Logic</td>
+                    <td></td>
+                    <td>Intro to Logic</td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>1:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>2:00 pm</th>
+                    <td></td>
+                    <td</td>
+                    <td rowspan="3">Homework</td>
+                    <td rowspan="3">Homework</td>
+                    <td rowspan="3">Homework</td>
+                    <td rowspan="3">Homework</td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>3:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>4:00 pm</th>
+                   
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>5:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+                <tr>
+                    <th>6:00 pm</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                </tr>
+            </table>
+    </div>
+</body>
+</html>
